@@ -1,0 +1,108 @@
+/* Estilos personalizados */
+
+body {
+    background-color: black;
+    /* Fondo negro */
+    color: white;
+    /* Texto blanco */
+    font-family: 'Times New Roman', Times serif;
+    /* Fuente del texto */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff6600;
+    font-size: 18px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Permitir que los elementos se envuelvan a la siguiente línea */
+}
+
+.movie {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 30%;
+    /* Ancho del contenedor de película */
+}
+
+.movie img {
+    width: 100%;
+    /* Ancho de la imagen */
+    height: auto;
+    /* Altura automática */
+    display: block;
+    /* Para centrar la imagen */
+    margin: 0 auto 10px;
+    /* Margen inferior */
+}
+
+.movie h2 {
+    margin-bottom: 5px;
+    /* Espacio entre el título y la descripción */
+}
+
+.movie p {
+    margin-bottom: 5px;
+    /* Espacio entre los párrafos */
+}
+
+.calories-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calories-container p {
+    margin-right: 5px;
+    /* Espacio entre las calorías y el ícono de fuego */
+}
+
+.calories-container img {
+    width: 20px;
+    /* Tamaño del ícono de fuego */
+    height: auto;
+    /* Altura automática */
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a {
+    color: #ff6600;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ff6600;
+    border-radius: 5px;
+}
+
+.pagination li.active a {
+    background-color: #ff6600;
+    color: #fff;
+}

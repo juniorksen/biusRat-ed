@@ -1,0 +1,39 @@
+/* Basic styles for a clean and readable layout */
+
+body {
+    font-family: Arial, sans-serif;
+    /* Set a default font */
+    margin: 0;
+    /* Remove default margin */
+    padding: 20px;
+    /* Add some padding for visual appeal */
+    display: flex;
+    /* Center buttons horizontally (optional) */
+    justify-content: center;
+    /* Center buttons horizontally (optional) */
+    align-items: center;
+    /* Center buttons vertically (optional) */
+}
+
+a {
+    color: #333;
+    /* Set link color */
+    text-decoration: none;
+    /* Remove underline from links */
+    padding: 10px 20px;
+    /* Add some padding for buttons */
+    border: 1px solid #ccc;
+    /* Add a subtle border */
+    border-radius: 5px;
+    /* Add rounded corners */
+    margin-right: 10px;
+    /* Add spacing between buttons */
+}
+
+
+/* Optional: Hover effect for buttons */
+
+a:hover {
+    background-color: #eee;
+    /* Change background color on hover */
+}

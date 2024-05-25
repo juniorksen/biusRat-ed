@@ -1,0 +1,137 @@
+body {
+    background-color: black;
+    /* Fondo negro */
+    color: white;
+    /* Texto blanco */
+    font-family: 'Times New Roman', Times, serif;
+    /* Fuente del texto */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    text-align: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ff6600;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-content {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.video-item {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.video-title {
+    margin: 10px 0;
+}
+
+.video-description {
+    margin: 10px 0;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+.calorias {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.caloria-item {
+    flex-basis: calc(33.33% - 20px);
+    /* Tres elementos por fila */
+    margin-bottom: 20px;
+}
+
+.caloria-content {
+    text-align: center;
+}
+
+.caloria-content img {
+    width: 100%;
+    /* Esto asegura que todas las imágenes tengan el mismo ancho */
+    height: 200px;
+    /* Puedes ajustar la altura según tus preferencias */
+    object-fit: cover;
+    /* Esto asegura que las imágenes mantengan su relación de aspecto */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.caloria-title {
+    margin: 10px 0;
+    color: #ff6600;
+}
+
+.caloria-description {
+    margin: 10px 0;
+}
+
+h2 {
+    color: #ff6600;
+    text-align: center;
+    width: 100%;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a {
+    color: #ff6600;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ff6600;
+    border-radius: 5px;
+}
+
+.pagination li.active a {
+    background-color: #ff6600;
+    color: #fff;
+}
